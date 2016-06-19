@@ -243,8 +243,7 @@ header .header-content .header-content-inner h1 {
     margin-bottom: 0;
     max-width: 100%;
     display:block;
-    margin-left: auto;
-    margin-right: auto;
+    text-align:center;
     color:rgb(237,28,26);
     font-size:100px;
 }
