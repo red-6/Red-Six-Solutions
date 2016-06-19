@@ -246,9 +246,9 @@ header .header-content .header-content-inner h1 {
     text-align:center;
     color:rgb(237,28,26);
     font-size:400%;
-  -webkit-text-stroke: 6px rgb(237,28,26);
+  -webkit-text-stroke: 3px rgb(237,28,26);
   text-shadow:
-    6px 6px 0 rgb(237,28,26),
+    3px 3px 0 rgb(237,28,26),
    /*-1px -1px 0 rgb(237,28,26),  
     1px -1px 0 rgb(237,28,26),
    -1px  1px 0 rgb(237,28,26),
