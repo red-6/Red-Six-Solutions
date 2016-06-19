@@ -247,6 +247,7 @@ header .header-content .header-content-inner h1 {
     margin-left: auto;
     margin-right: auto;
     color:rgb(237,28,26);
+    font-size:100px;
 }
 
 header .header-content .header-content-inner hr {
