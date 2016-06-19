@@ -112,6 +112,7 @@ p {
 .text-faded {
     color: rgba(255,255,255,1);
     font-size:20px;
+    max-width: 75%;
 }
 
 section {
