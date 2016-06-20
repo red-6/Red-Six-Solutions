@@ -334,7 +334,7 @@ header .header-content .header-content-inner p {
 }
 
 .portfolio-box {
-    display: block;
+    display: table;
     position: relative;
     margin: 50px auto;
     width: 75%;
