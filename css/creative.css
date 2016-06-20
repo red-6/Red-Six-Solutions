@@ -348,7 +348,7 @@ header .header-content .header-content-inner p {
     left: 0;
     right: 0;
     width: 100%;
-
+    line-height:100px;
     margin: auto;
     text-align: center;
     color: #fff;
