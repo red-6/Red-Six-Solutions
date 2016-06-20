@@ -104,8 +104,8 @@ p {
 }
 
 .small-image{
-    width:150px;
-    height:150px;
+    width:100px;
+    height:100px;
     margin:auto;
 }
 
@@ -355,9 +355,8 @@ header .header-content .header-content-inner p {
     font-weight: bolder;
     text-shadow: 2px 2px 8px #000;
     padding: 0 15px;
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
+    top:50%;
+    transform: translateY(-50%);
 }
 
 
