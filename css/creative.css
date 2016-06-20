@@ -354,8 +354,8 @@ header .header-content .header-content-inner p {
     font-size: 30px;
     font-weight: bolder;
     text-shadow: 2px 2px 8px #000;
-    top:50%;
     padding: 0 15px;
+    transform: translateY(-50%);
 }
 
 
