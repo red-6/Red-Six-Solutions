@@ -349,11 +349,13 @@ header .header-content .header-content-inner p {
     height:100%;
     text-align: center;
     color: #fff;
-    opacity:0;
+    opacity:1;
     font-family: 'Outage','Helvetica Neue',Arial,sans-serif;
     font-size: 30px;
     font-weight: bolder;
     text-shadow: 2px 2px 8px #000;
+    top:50%;
+    padding: 0 15px;
 }
 
 
