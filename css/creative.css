@@ -342,13 +342,13 @@ header .header-content .header-content-inner p {
 }
 
 .caption-title {
-    position:absolute;
+    position:table-cell;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     width: 100%;
-    line-height:100px;
+    vertical-align:middle;
     margin: auto;
     text-align: center;
     color: #fff;
