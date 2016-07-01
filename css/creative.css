@@ -182,7 +182,8 @@ aside {
 @media(min-width:768px) {
     .navbar-default {
         border-color: transparent;
-        background-color: #000;
+        /*before scrolling*/
+        background-color: transparent;
     }
 
     .navbar-default .navbar-header .navbar-brand {
@@ -206,7 +207,7 @@ aside {
 
     .navbar-default.affix {
         border-color: rgba(34,34,34,.05);
-        background-color: transparent;
+        background-color: #fff;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
