@@ -544,7 +544,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-xl {
-    padding: 15px 30px;
+    max-height: 33%;
 }
 
 ::-moz-selection {
