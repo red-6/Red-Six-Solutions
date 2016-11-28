@@ -59,6 +59,17 @@ strong {
 dfn {
   font-style: italic;
 }
+h0{
+    margin: .67em 0;
+  font-size: 100px
+}
+@media screen and (max-device-width : 320px)
+{
+  h0
+  {
+    font:50px;
+  }
+}
 h1 {
   margin: .67em 0;
   font-size: 2em;
