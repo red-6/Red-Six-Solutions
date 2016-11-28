@@ -59,17 +59,7 @@ strong {
 dfn {
   font-style: italic;
 }
-h0{
-    margin: .67em 0;
-  font-size: 100px
-}
-@media screen and (max-device-width : 320px)
-{
-  h0
-  {
-    font:50px;
-  }
-}
+h0,
 h1 {
   margin: .67em 0;
   font-size: 2em;
@@ -1190,12 +1180,14 @@ hr {
 [role="button"] {
   cursor: pointer;
 }
+h0,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
+.h0,
 .h1,
 .h2,
 .h3,
@@ -1235,6 +1227,8 @@ h6 .small,
   line-height: 1;
   color: #777;
 }
+h0,
+.h0,
 h1,
 .h1,
 h2,
@@ -1280,6 +1274,17 @@ h5 .small,
 h6 .small,
 .h6 .small {
   font-size: 75%;
+}
+h0,
+.h0 {
+  font-size 100px;
+}
+@media screen and (max-device-width : 320px)
+{
+  h0
+  {
+    font:50px;
+  }
 }
 h1,
 .h1 {
