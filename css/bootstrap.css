@@ -1279,6 +1279,7 @@ h0,
 .h0 {
   font-size 100px;
 }
+
 @media screen and (max-device-width : 320px)
 {
   h0
