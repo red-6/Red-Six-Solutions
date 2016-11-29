@@ -261,7 +261,7 @@ header .header-content .header-content-inner h1 {
 }
 @media screen and (max-device-width : 320px)
 {
-  h1
+  header .header-content .header-content-inner h1
   {
     font:50px;
   }
