@@ -297,6 +297,8 @@ header .header-content .header-content-inner p {
 }
 @media(min-width:320px) {
     header .header-content .header-content-inner p {
+        margin-right: auto;
+        margin-left: auto;
         font-size:12px;
         max-width:80%
     }
