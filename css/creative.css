@@ -258,16 +258,6 @@ header .header-content .header-content-inner h1 {
    -1px  1px 0 rgb(237,28,26),
     1px  1px 0 rgb(237,28,26);*/
 }
-@media screen and (max-device-width : 320px) {
-  header .header-content .header-content-inner h1 {
-    font-size:50px;
-  }
-   header .header-content .header-content-inner p {
-       font-size:18px
-}
-header .header-content .header-content-inner hr {
-    margin: 30px auto;
-}
 
 header .header-content .header-content-inner p {
     font-family: 'Outage','Helvetica Neue',Arial,sans-serif;
