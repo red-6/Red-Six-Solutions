@@ -295,7 +295,12 @@ header .header-content .header-content-inner p {
         font-size: 18px;
     }
 }
-
+@media(min-width:320px) {
+    header .header-content .header-content-inner p {
+        font-size:12px;
+        max-width:80%
+    }
+}    
 .align{
     vertical-align:middle;
 }
