@@ -70,7 +70,9 @@ p {
     background-size: cover;
     -o-background-size: cover;
 }
-
+iframe .bg-primary{
+    height: 75%
+}
 .bg-black {
     position: relative;
     text-align: center;
