@@ -250,7 +250,7 @@ header .header-content .header-content-inner h1 {
     display:block;
     text-align:center;
     color:rgb(237,28,26);
-    font-size:400%;
+    font-size:100px;
   -webkit-text-stroke: 3px rgb(237,28,26);
   text-shadow:
     3px 3px 0 rgb(237,28,26),
@@ -259,7 +259,13 @@ header .header-content .header-content-inner h1 {
    -1px  1px 0 rgb(237,28,26),
     1px  1px 0 rgb(237,28,26);*/
 }
-
+@media screen and (max-device-width : 320px)
+{
+  h1
+  {
+    font:50px;
+  }
+}
 header .header-content .header-content-inner hr {
     margin: 30px auto;
 }
