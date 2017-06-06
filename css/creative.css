@@ -120,6 +120,12 @@ iframe .bg-primary{
     margin:auto;
 }
 
+.headerimg{
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
 .text-faded {
     color: rgba(255,255,255,1);
     font-size:20px;
