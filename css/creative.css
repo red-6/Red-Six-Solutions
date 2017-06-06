@@ -87,7 +87,8 @@ p {
 
 .blacklayer {
     background-color: rgba(0, 0, 0, 0.5);
-    
+    padding: 0;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .bg-header {
@@ -131,7 +132,6 @@ p {
 
 section {
     padding: 100px 0;
-    background-color: Rgba(0,0,0,.5);
 }
 
 aside {
