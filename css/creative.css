@@ -88,6 +88,8 @@ p {
 .blacklayer {
   background-color: rgba(0,0,0,.5);
   min-height: 100%;
+    margin-top:100px;
+    margin-bottom:100px;
 }
 
 .bg-header {
