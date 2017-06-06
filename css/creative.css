@@ -69,6 +69,7 @@ p {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    background-clip: padding-box;
 }
 
 .bg-black {
@@ -89,6 +90,7 @@ p {
   background-color: rgba(0,0,0,.5);
   min-height: 100%;
   padding: 0;
+  background-clip:padding-box;
 }
 
 .bg-header {
