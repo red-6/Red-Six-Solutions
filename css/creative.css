@@ -87,6 +87,21 @@ iframe .bg-primary{
     -o-background-size: cover;
 }
 
+.bg-halfblack {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    opacity: .5;
+    width: 100%;
+    background-image: url(../img/hoodedman.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .bg-header {
     position: relative;
     width: 100%;
