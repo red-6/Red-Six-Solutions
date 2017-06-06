@@ -91,6 +91,7 @@ p {
   min-height: 100%;
   padding: 0;
   background-clip:padding-box;
+  background-attachment: inherit;
 }
 
 .bg-header {
