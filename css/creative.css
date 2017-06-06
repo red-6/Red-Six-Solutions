@@ -71,7 +71,7 @@ p {
     -o-background-size: cover;
 }
 iframe .bg-primary{
-    height: 75%;
+    height: 100%;
 }
 .bg-black {
     position: relative;
