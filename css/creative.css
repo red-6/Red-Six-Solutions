@@ -90,7 +90,8 @@ iframe .bg-primary{
 .bg-halfblack {
     position: relative;
     text-align: center;
-    color: #000;
+    color: #fff;
+    background-color: #000;
     opacity: .5;
     width: 100%;
     background-image: url(../img/hoodedman.jpg);
