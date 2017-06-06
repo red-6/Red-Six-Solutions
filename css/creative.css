@@ -69,9 +69,10 @@ p {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    height: 100%;
 }
 iframe .bg-primary{
-    height: 75%
+    height: 75%;
 }
 .bg-black {
     position: relative;
