@@ -134,6 +134,11 @@ p {
     font-size:20px;
 }
 
+.twitter{
+    height:100%;
+    text-align: center;
+}
+
 section {
     padding: 100px 0;
     background-color:rgba(0,0,0,.5);
@@ -454,7 +459,7 @@ header .header-content .header-content-inner p {
 .no-gutter > [class*=col-] {
     padding-right: 0;
     padding-left: 0;
-    background-color:rgba(0,0,0,0);
+    background-color: transparent;
 }
 
 .btn-default {
