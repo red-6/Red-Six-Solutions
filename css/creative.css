@@ -95,6 +95,13 @@ p {
   background-attachment: inherit;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 .bg-header {
     position: relative;
     width: 100%;
@@ -411,7 +418,12 @@ header .header-content .header-content-inner p {
     -moz-transition: all .35s;
     transition: all .35s;
 }
-
+.portfolio-box1 .portfolio-box-caption1 .portfolio-box-caption-content1 {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    transform: translateY(-50%);
+}
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
     position: absolute;
     top: 50%;
