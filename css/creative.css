@@ -427,7 +427,6 @@ header .header-content .header-content-inner p {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
     position: absolute;
     top: 50%;
-    width: 100%;
     text-align: center;
     transform: translateY(-50%);
 }
