@@ -325,8 +325,8 @@ header .header-content {
 
 
 header .header-content .header-content-inner {
-    margin-top:25%;
-    margin-bottom: 0;
+    margin-top:auto;
+    margin-bottom: auto;
     max-width: 100%;
     display:block;
     text-align:center;
@@ -367,7 +367,10 @@ header .header-content .header-content-inner p {
     header .header-content .header-content-inner {
         margin-right: auto;
         margin-left: auto;
+        margin-top: auto;
+        margin-bottom: auto;
         max-width: 100%;
+        
     }
 
     header .header-content .header-content-inner p {
