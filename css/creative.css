@@ -176,7 +176,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     margin-top: 10%;
-    display:block;
+    display:inline-block;
     
     
 }
@@ -358,7 +358,7 @@ header .header-content .header-content-inner p {
 
     header .header-content {
         position: absolute;
-        top: 50%;
+        top: 30%;
         padding: 0 50px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
