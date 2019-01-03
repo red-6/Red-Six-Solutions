@@ -438,6 +438,14 @@ header .header-content .header-content-inner p {
     background-color:rgba(0,0,0,.5);
 }
 
+.portfolio-bo {
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 90%;
+    background-color:rgba(0,0,0,.5);
+}
+
 .caption-title {
     display:block;
     position:absolute;
