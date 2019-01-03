@@ -441,7 +441,7 @@ header .header-content .header-content-inner p {
 .portfolio-bo {
     display: block;
     position: relative;
-    margin: auto;
+    margin:50px auto ;
     width: 90%;
     background-color:rgba(0,0,0,.5);
 }
