@@ -275,10 +275,13 @@ aside {
     width:75%;
 }
 
-.vert {
+.vert-outside {
   position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+}
+
+.vert-inside {
+    position: absolute;
+    bottom: 0;
 }
 
 
