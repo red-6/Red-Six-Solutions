@@ -102,6 +102,13 @@ p {
     width: 50%;
 }
 
+.cnt {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
 .example1 {
  height: 50px;	
  overflow: hidden;
