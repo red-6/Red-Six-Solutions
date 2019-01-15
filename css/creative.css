@@ -276,7 +276,7 @@ aside {
 }
 
 .vert-outside {
-  position: relative;
+  position: static;
 }
 
 .vert-inside {
