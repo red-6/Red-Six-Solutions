@@ -41,6 +41,12 @@
             top: 100
         }
     })
+    
+    $(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+});
 
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
