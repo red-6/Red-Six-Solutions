@@ -268,6 +268,9 @@ aside {
     width:75%;
 }
 
+.vert {
+    vertical-align: middle;
+}
 
 
 @media(min-width:768px) {
