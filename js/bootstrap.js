@@ -60,6 +60,21 @@ if (typeof jQuery === 'undefined') {
     return this
   }
 
+  $( '.flexslider' )
+    .fitVids()
+    .flexslider({
+      animation: 'slide',
+      useCSS: false,
+      animationLoop: false,
+      smoothHeight: true,
+      start: function( slider ) {
+        $('body').removeClass( 'loading' );
+      },
+      before: function ( slider ) {
+        wistiaEmbed.pause();
+      }
+  });
+  
   $(function () {
     $.support.transition = transitionEnd()
 
