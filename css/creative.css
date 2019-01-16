@@ -846,6 +846,19 @@ p {
 	user-select: none;
 }
 
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+i.fa {
+	line-height: inherit;
+	font-weight: normal;
+	vertical-align: baseline;
+}
 
 
 
