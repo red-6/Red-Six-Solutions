@@ -417,3 +417,8 @@
 	font-size: 14px;
 }
 
+.wrapper {
+	width: 1000px;
+	margin: 0px auto;
+	position: relative;
+}
