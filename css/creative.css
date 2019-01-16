@@ -20,158 +20,6 @@ hr {
     border-width: 3px;
 }
 
-.main-slider {
-  position: relative;
-  width: 100%;
-  height: 38vw;
-  min-height: 8vw;
-  margin-bottom: 50px;
-  opacity: 0;
-  visibility: hidden;
-  transition:all 1.2s ease;
-  &.slick-initialized {
-    opacity: 1;
-    visibility: visible;
-  }
-}
-.slick-slide {
-  position: relative;
-  height: 38vw;
-  @extend %bv_hidden;
-  &::before {
-    @extend %filled_obj;
-    @extend %bv_hidden;
-    background-color: #000;
-    opacity: .3;
-    z-index: 1;
-  }
-  video {
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    transform:translate(-50%, -50%);
-  }
-  iframe {
-    position: relative;
-    pointer-events: none;
-  }
-  figure {
-    position: relative;
-    height: 100%;
-  }
-  .slide-image {
-    opacity: 0;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    // background-color:rgba(#c46897,.38);
-    // background-blend-mode:overlay;
-    transition:all .8s ease;
-    &.show {
-      opacity: 1;
-    }
-  }
-  .image-entity {
-    width: 100%;
-    opacity: 0;
-    visibility: hidden;
-  }
-  .loading {
-    position: absolute;
-    top: 44%;
-    left: 0;
-    width: 100%;
-  }
-  .slide-media {
-    animation:slideOut .4s cubic-bezier(0.4, 0.29, 0.01, 1);
-  }
-  &.slick-active {
-    z-index: 1;
-    .slide-media {
-      animation:slideIn 2.4s cubic-bezier(0.4, 0.29, 0.01, 1);
-    }
-    .caption {
-      opacity: 1;
-      transform:translateY(0);
-      transition:all .7s cubic-bezier(0.32, 0.34, 0, 1.62) .6s;
-    }
-  }
-}
-
-.slick-dots {
-  text-align: center;
-  padding-top: 15px;
-  li {
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 8px;
-    button {
-      width: 16px;
-      height: 16px;
-      border: none;
-      cursor: pointer;
-      border-radius: 50%;
-      border: 2px solid #fff;
-      box-shadow: 0 0 0 0 transparent;
-      vertical-align: middle;
-      color: #fff;
-      background-color: #fff;
-      transition:all .3s ease;
-      opacity: .4;
-      &:focus {
-        outline: none;
-      }
-      &:hover {
-        opacity: 1;
-      }
-    }
-    &.slick-active {
-      button {
-        border-color: $bg_color;
-        box-shadow: 0 0 0 2px #fff;
-        opacity: 1;
-      }
-    }
-  }
-}
-
-.container {
-  background-color: #f2f2f2;
-  color: #444;
-  line-height: 1.6;
-  padding: 40px 0;
-  .content {
-    width: 90%;
-    max-width: 980px;
-    margin: 0 auto;
-  }
-  p {
-    margin-bottom: 40px;
-  }
-}
-
-@keyframes slideIn {
-  from {
-    filter:blur(15px);
-  }
-  to {
-    filter:blur(0);
-  }
-}
-@keyframes slideOut {
-  from {
-    filter:blur(0);
-  }
-  to {
-    filter:blur(15px);
-  }
-}
-
 hr.light {
     border-color: #fff;
 }
@@ -238,7 +86,6 @@ p {
     -o-background-size: cover;
     background-clip: padding-box;
 }
-
 
 .blacklayer {
   background-color: rgba(0,0,0,.5);
@@ -437,145 +284,6 @@ aside {
     bottom: 0;
 }
 
-.video-grid.front-page {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 1em 2em;
-}
-
-ul.video-list {
-  display: flexbox;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-li.video {
-  flex-grow: 1;
-  position: relative;
-  ooverflow: hidden;
-	width: 33.333333333%;
-	width: -webkit-calc(100% / 3);
-	width: calc(100% / 3);
-  border: solid 0.2em transparent;
-  
-  & a {
-    outline: none;
-  }
-      
-  &:before {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0);
-    transition: background-color .15s;
-  }
-  
-  & figure {
-    display: block;
-    position: relative;
-    overflow: hidden;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    
-    & img {
-      display: block;
-      max-width: 100%;
-      height: auto;
-      opacity: 0;
-      transform: scale(0.5);
-      transition: all .20s;
-    }
-
-    & figcaption {
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      background: rgba(0,0,0,0.6);
-      color: #fff;
-      font-size: 1.4rem;
-      font-weight: 600;
-      padding: 1rem;
-      transform: translateY(0);
-      opacity: 1;
-      transition: all .20s;
-    }
-  }
-  
-  &:hover {
-    & figure {
-      & img {
-        opacity: 1;
-        transform: scale(1);
-      }
-      
-      & figcaption {
-        opacity: 0;
-        transform: translateY(50%);
-      }
-    }
-  }
-  
-  &:hover:before {
-    background-color: rgba(0,0,0,0.3);
-  }
-}
-
-@media screen and (max-width: 800px) {
-	li.video {
-		width: 50%;
-		width: -webkit-calc(100% / 2);
-		width: calc(100% / 2);
-	}
-}
-
-@media screen and (max-width: 640px) {
-	li.video {
-		width: 100%;
-	}
-}
-
-/**
- * Pen styles
- */
-html { box-sizing: border-box; height: 100%; overflow-y: scroll; font-size: 62.5%; }
-*, *:before, *:after { box-sizing: inherit; }
-body {
-	background: #fff;
-	color: #444;
-	font-family: 'Open Sans', Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
-	font-size: 1.8rem;
-	line-height: 1.2;
-}
-
-header {
-  width: 100%;
-  padding: 2em;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.7);
-  
-  & h1 {
-    font-size: 3rem;
-    font-weight: 700;
-    text-align: center;
-    letter-spacing: -0.03em;
-    color: #666;
-  }
-}
-
-main {
-  padding: 2rem 0;
-}
-
-article {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 1em 2em;
-}
 
 @media(min-width:768px) {
     .navbar-default {
@@ -983,4 +691,54 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+}
+
+.main-slider {
+  position: relative;
+  width: 100%;
+  height: 38vw;
+  min-height: 8vw;
+  margin-bottom: 50px;
+  opacity: 0;
+  visibility: hidden;
+  transition:all 1.2s ease;
+  &.slick-initialized {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+  iframe {
+    position: relative;
+    pointer-events: none;
+  }
+  .slide-media {
+    animation:slideOut .4s cubic-bezier(0.4, 0.29, 0.01, 1);
+  }
+  &.slick-active {
+    z-index: 1;
+    .slide-media {
+      animation:slideIn 2.4s cubic-bezier(0.4, 0.29, 0.01, 1);
+    }
+    .caption {
+      opacity: 1;
+      transform:translateY(0);
+      transition:all .7s cubic-bezier(0.32, 0.34, 0, 1.62) .6s;
+    }
+  }
+
+@keyframes slideIn {
+  from {
+    filter:blur(15px);
+  }
+  to {
+    filter:blur(0);
+  }
+}
+@keyframes slideOut {
+  from {
+    filter:blur(0);
+  }
+  to {
+    filter:blur(15px);
+  }
 }
