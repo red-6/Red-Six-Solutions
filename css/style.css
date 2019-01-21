@@ -59,7 +59,7 @@
   text-decoration: none;
   filter: alpha(opacity=60);
   outline: 0;
-  opacity: 0.6;
+  opacity: 0.1;
 }
 
 .left-button {
@@ -72,7 +72,7 @@
   transform: translate(0,-50%);
   -moz-border-radius: 0 90px 90px 0;
   -webkit-border-radius: 0 90px 90px 0;
-  background-color: #e25454;
+  background-color: transparent;
   display: inline-block;
   position: relative;
   float:left;
@@ -90,7 +90,7 @@
   transform: translate(0,-50%);
   -moz-border-radius: 90px 0 0 90px;
   -webkit-border-radius: 90px 0 0 90px;
-  background-color: #e25454;
+  background-color: transparent;
   display: inline-block;
   position: relative;
   float:right;
