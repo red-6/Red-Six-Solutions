@@ -120,6 +120,7 @@ p {
   max-height: 30%;
   overflow: auto;
   font-color: #333;
+  color: #333;
 }
 
 @media screen and (max-width: 800px){
