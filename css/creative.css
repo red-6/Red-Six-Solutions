@@ -107,6 +107,7 @@ p {
   transition: opacity 500ms;
   visibility: hidden;
   opacity: 0;
+  z-index: 7;
 }
 .overlay:target {
   visibility: visible;
@@ -119,7 +120,7 @@ p {
   background: #fff;
   border-radius: 5px;
   width: 30%;
-  position: relative;
+  position: fixed;
   transition: all 5s ease-in-out;
   z-index: 5;
 }
