@@ -132,6 +132,9 @@ p {
   }
 }
 
+.behindpopup {
+    z-index: -1;
+}
 
 .bg-black {
     position: relative;
