@@ -49,6 +49,7 @@ h1 {
   margin-left: 0;
   margin-right: 0;
   font-weight: bold;
+  font-family: 'Outage','Helvetica Neue',Arial,sans-serif;
 }
 
 h2 {
@@ -59,6 +60,7 @@ h2 {
   margin-left: 0;
   margin-right: 0;
   font-weight: bold;
+  font-family: 'Outage','Helvetica Neue',Arial,sans-serif;
 }
 
 h3 { 
@@ -69,6 +71,7 @@ h3 {
   margin-left: 0;
   margin-right: 0;
   font-weight: bold;
+  font-family: 'Outage','Helvetica Neue',Arial,sans-serif;
 }
 
 h4 { 
@@ -79,11 +82,12 @@ h4 {
   margin-left: 0;
   margin-right: 0;
   font-weight: bold;
+  font-family: 'Outage','Helvetica Neue',Arial,sans-serif;
 }
 
 p {
     margin-bottom: 20px;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.5;
 }
 
