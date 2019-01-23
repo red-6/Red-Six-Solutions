@@ -166,7 +166,7 @@ p {
     width: 50%;
 }
 
-.example1 {
+/*.example1 {
  height: 50px;	
  overflow: hidden;
  position: relative;
@@ -180,16 +180,16 @@ p {
  margin: 0;
  line-height: 50px;
  text-align: center;
- /* Starting position */
+ 
  -moz-transform:translateX(100%);
  -webkit-transform:translateX(100%);	
  transform:translateX(100%);
- /* Apply animation to this element */	
+ 
  -moz-animation: example1 15s linear infinite;
  -webkit-animation: example1 15s linear infinite;
  animation: example1 15s linear infinite;
 }
-/* Move it (define the animation) */
+
 @-moz-keyframes example1 {
  0%   { -moz-transform: translateX(100%); }
  100% { -moz-transform: translateX(-100%); }
@@ -200,16 +200,17 @@ p {
 }
 @keyframes example1 {
  0%   { 
- -moz-transform: translateX(100%); /* Firefox bug fix */
- -webkit-transform: translateX(100%); /* Firefox bug fix */
+ -moz-transform: translateX(100%); 
+ -webkit-transform: translateX(100%); 
  transform: translateX(100%); 		
  }
  100% { 
- -moz-transform: translateX(-100%); /* Firefox bug fix */
- -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ -moz-transform: translateX(-100%); 
+ -webkit-transform: translateX(-100%); 
  transform: translateX(-100%); 
  }
 }
+*/
 
 .bg-header {
     position: relative;
@@ -498,7 +499,7 @@ header .header-content .header-content-inner p {
     display: block;
     position: relative;
     margin: 50px auto;
-    width: 90%;
+    width: 100%;
     background-color:rgba(0,0,0,.5);
 }
 
@@ -508,7 +509,7 @@ header .header-content .header-content-inner p {
     top:0;
     bottom:0;
     width: 100%;
-    height:40%;
+    height:50%;
     text-align: center;
     color: #fff;
     opacity:1;
