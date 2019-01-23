@@ -41,19 +41,49 @@ a:focus {
     src: url(../Images/Outage.ttf);
 }
 
-h0,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Outage','Helvetica Neue',Arial,sans-serif;
+h1 { 
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h3 { 
+  display: block;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h4 { 
+  display: block;
+  font-size: 1em;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
 }
 
 p {
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 1.5;
 }
 
@@ -163,7 +193,6 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
 }
 
 /*.example1 {
@@ -498,7 +527,7 @@ header .header-content .header-content-inner p {
 .full-img {
     display: block;
     position: relative;
-    margin: none;
+    margin: auto;
     width: 90%;
 }
 
