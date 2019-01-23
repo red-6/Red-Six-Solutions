@@ -95,6 +95,7 @@ p {
   width: 30%;
   position: relative;
   transition: all 5s ease-in-out;
+  max-height: 50%;
 }
 
 .popup h2 {
