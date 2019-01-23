@@ -502,20 +502,12 @@ header .header-content .header-content-inner p {
     background-color:rgba(0,0,0,.5);
 }
 
-.portfolio-bo {
-    display: block;
-    position: relative;
-    margin:50px auto ;
-    width: 90%;
-    background-color:rgba(0,0,0,.5);
-}
-
 .caption-title {
     display:block;
     position:absolute;
     top:0;
     bottom:0;
-    width: 90%;
+    width: 100%;
     height:40%;
     text-align: center;
     color: #fff;
